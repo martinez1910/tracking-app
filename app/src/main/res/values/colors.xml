@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00e5ff</color>
+    <color name="colorBackground">#e0f7fa</color>
+    <color name="colorButtonBackground">#dff3fd</color>
+    <color name="colorInfo">#afe4ff</color>
+    <color name="colortext">#1464f6</color>
+    <color name="colortext2">#1464f6</color>
+    <color name="colorButtonLine">#00a2e5</color>
+    <color name="colorButtonLineAccent">#00e5ff</color>
+    <color name="Darkgreen">#64dd17</color>
+    <color name="Lightgreen">#b2ff59</color>
+    <color name="Darkdarkgreen">#33691e</color>
+    <color name="DarkRed">#ff3d00</color>
+    <color name="Darkdarkred">#dd2c00</color>
+    <color name="Lightred">#ffccbc</color>
+    <color name="GrisButton">#b0bec5</color>
+
+    <array name="menu_colors">
+        <item>@color/colorInfo</item>
+        <item>@color/colorInfo</item>
+        <item>@color/colorInfo</item>
+    </array>
+
+
+
+</resources>

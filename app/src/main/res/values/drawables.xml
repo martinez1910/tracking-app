@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="menudrawables">
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_historical</item>
+        <item>@drawable/ic_principal</item>
+    </array>
+
+</resources>

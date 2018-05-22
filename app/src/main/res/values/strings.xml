@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackingApp</string>
+    <string name="user">Usuario:</string>
+    <string name="hint_user">Introduce tu usuario</string>
+    <string name="hint_password">Introduce tu contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="forget_my_data">Olvidé mis credenciales</string>
+    <string name="start_hour">Hora Inicio</string>
+    <string name="time_running">Tiempo Transcurrido</string>
+    <string name="title_activity_user_button">userButtonActivity</string>
+    <string name="task_1">Tarea 1</string>
+    <string name="task_2">Tarea 2</string>
+    <string name="task_3">Tarea 3</string>
+    <string name="task_4">Tarea 4</string>
+    <string name="task_5">Tarea 5</string>
+    <string name="task_6">Tarea 6</string>
+    <string name="task_7">Tarea 7</string>
+    <string name="name_task">Nombre de la tarea</string>
+    <string name="add_task">Añadir Tarea</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="add_Task2">Añadir Tarea</string>
+    <string name="title_activity_choose_task2">ChooseTask2</string>
+
+    <string name="StopShift">STOP</string>
+    <string name="PlayShift">PLAY</string>
+    <string name="Snackbar_message">Pónte en contacto con el administrador: 985123456</string>
+    <string name="starting_taskactivity">Iniciado</string>
+    <string name="finishing_taskactivity">Terminado</string>
+    <string name="my_time_card">Tabla de Tiempos</string>
+    <string name="taskChoose">Elegir tarea</string>
+    <string name="play">Fichar</string>
+    <string name="access_main">Entrar</string>
+
+    <string name="StartShiftFirst">Debes fichar primero</string>
+    <string name="message_start_shift">No puedes ver las tareas hasta que no hayas fichado.</string>
+
+    <string name="title_stop">¡Atención! Vas a finalizar el fichaje</string>
+    <string name="message_stop">Si finalizas el fichaje se detendrán todas las tareas en curso.</string>
+
+    <string name="title_deleteTask">¡Atención! Vas a borrar la tarea</string>
+    <string name="message_deleteTask">¿Estás seguro de que quieres borrar la tarea?</string>
+
+    <string name="title_stopTask">¡Atención! Vas a parar la tarea</string>
+    <string name="message_stopTask">¿Estás seguro de que quieres finalizar la tarea?</string>
+
+    <string name="title_NotSimultaneousTask">¡Atención!</string>
+    <string name="message_NotSimultaneousTask">No puedes iniciar dos tareas a la vez.</string>
+
+    <string name="datereport">Informe de Fecha</string>
+    <string name="totaltime">Tiempo total\n</string>
+    <string name="no_task">Sin Tarea</string>
+
+    <string name="principal">Principal</string>
+    <string name="historical">Histórico</string>
+    <string name="info">Info</string>
+    <string name="info_message">Aplicación desarrollada por: \n\nAlejandro Martínez Remis, \nNel García Rivas, \nJuan Domínguez Martínez, \nGonzalo San Martín De Fuentes, \nDavid Lobato Vidales,
+        \nCarlos Piñeiro Cañedo-Argüelles. \n\nCon el apoyo de David Santamaría como Profesor del Proyecto Final del Curso \'Programación de Apps Móviles\' de Empleo Digital, Fundación Telefónica
+        y en colaboración con ABA Mobile.\n\n Oviedo, Mayo de 2018.</string>
+
+<string-array name="menu_names">
+    <item>@string/info</item>
+    <item>@string/historical</item>
+    <item>@string/principal</item>
+</string-array>
+
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bvapp.arcmenulibrary.widget.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBackground">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.abamobile.empleodigital.trackingapp.design.activities.MainActivity"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:id="@+id/ll_usuario"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_time_card"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:padding="7dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_horaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_usuario"
+        android:gravity="center"
+        android:weightSum="2"
+        android:background="@color/GrisButton"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="@string/time_running"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tv_tiempoTranscurrido"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="00:00:00"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_horaInicio"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="@string/start_hour"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_horaInicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="00:00:00"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_time"
+        android:id="@+id/bt_playStop"
+        android:layout_marginTop="85dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/bt_chooseTask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_style"
+            android:onClick="onClick"
+            android:text="@string/taskChoose"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_playStop"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_play"
+            android:onClick="onClick"
+            android:text="@string/play"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.bvapp.arcmenulibrary.ArcMenu
+        android:id="@+id/arcMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:menuChildSize="32dp"
+        app:menuGravity="Top_Right"
+        app:menuClickAnim="true"
+        app:menuChildAnim="true"
+        app:menuShadowElevation="false"
+        app:menuNormalColor="@android:color/transparent"
+        app:menuImage="@drawable/logo96"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+</RelativeLayout>
+</com.bvapp.arcmenulibrary.widget.ObservableScrollView>

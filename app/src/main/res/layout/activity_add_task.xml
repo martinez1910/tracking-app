@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bvapp.arcmenulibrary.widget.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_task"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="125dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/et_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1.5"
+                android:hint="@string/name_task"
+                android:maxLength="30"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/bt_palette"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/ic_palette"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_addNewtask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_taskName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/button_style"
+            android:onClick="onClick"
+            android:text="@string/add_Task2"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_cancelNewTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_addNewtask"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_task"
+            android:onClick="onClick"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <com.bvapp.arcmenulibrary.ArcMenu
+            android:id="@+id/arcMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            app:menuChildAnim="true"
+            app:menuChildSize="32dp"
+            app:menuClickAnim="true"
+            app:menuGravity="Top_Right"
+            app:menuImage="@drawable/logo96"
+            app:menuNormalColor="@android:color/transparent"
+            app:menuShadowElevation="false" />
+
+    </RelativeLayout>
+</com.bvapp.arcmenulibrary.widget.ObservableScrollView>

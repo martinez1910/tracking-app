@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackingApp</string>
+    <string name="user">User:</string>
+    <string name="hint_user">Type your username</string>
+    <string name="hint_password">Type your password</string>
+    <string name="password">Password</string>
+    <string name="forget_my_data">Forgot my credentials</string>
+    <string name="start_hour">Start time</string>
+    <string name="time_running">Elapsed time</string>
+    <string name="title_activity_user_button">userButtonActivity</string>
+    <string name="task_1">Task 1</string>
+    <string name="task_2">Task 2</string>
+    <string name="task_3">Task 3</string>
+    <string name="task_4">Task 4</string>
+    <string name="task_5">Task 5</string>
+    <string name="task_6">Task 6</string>
+    <string name="task_7">Task 7</string>
+    <string name="name_task">Task name</string>
+    <string name="add_task">Add task</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="add_Task2">Add task</string>
+    <string name="title_activity_choose_task2">ChooseTask2</string>
+
+
+    <string name="StopShift">STOP</string>
+    <string name="PlayShift">PLAY</string>
+
+    <string name="Snackbar_message">Please, call the administrator: 985123456</string>
+
+    <string name="starting_taskactivity">Starting</string>
+    <string name="finishing_taskactivity">Finishing</string>
+
+    <string name="my_time_card">My Time Card</string>
+    <string name="taskChoose">Choose task</string>
+
+    <string name="play">Start</string>
+    <string name="access_main">Log in</string>
+
+    <string name="StartShiftFirst">Start a shift first</string>
+    <string name="message_start_shift">You cannot see the tasks until you have started a shift.</string>
+
+    <string name="title_stop">Attention!</string>
+    <string name="message_stop">If the shift ends, all tasks in progress will be stopped.</string>
+
+    <string name="title_deleteTask">Attention!</string>
+    <string name="message_deleteTask">Are you sure you want to delete the task?</string>
+
+    <string name="title_stopTask">Attention!</string>
+    <string name="message_stopTask">Are you sure you want to finish the task?</string>
+
+    <string name="title_NotSimultaneousTask">Attention!</string>
+    <string name="message_NotSimultaneousTask">You can\'t start two tasks at once.</string>
+
+    <string name="datereport">Date Report</string>
+    <string name="totaltime">Total Time\n</string>
+    <string name="no_task">No Task</string>
+
+    <string name="principal">Main</string>
+    <string name="historical">History</string>
+    <string name="info">Info</string>
+
+    <string name="info_message">Application developed by: \n\nAlejandro Martínez Remis, \nNel García Rivas, \nJuan Domínguez Martínez, \nGonzalo San Martín De Fuentes,
+        \nDavid Lobato Vidales,\nCarlos Piñeiro Cañedo-Argüelles. \n\nWith the support of David Santamaría as Final Proyect Manager in the Course \'Programmation of Mobile Apps\'
+        by Empleo Digital, Fundación Telefónica and collaboration with ABA Mobile.\n\nOviedo, may 2018.</string>
+</resources>
